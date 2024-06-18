@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Fact Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Fun Fact Generator</h1>
+        <p>{{ fact }}</p>
+        <a href="/" class="refresh-button">Get Another Fun Fact</a>
+    </div>
+</body>
+</html>
